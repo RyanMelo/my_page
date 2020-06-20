@@ -19,7 +19,7 @@ a {
     border-radius: 0 0 40px 40px;
 }
 
-.page-home img {
+.page-home header img {
     margin: 25px 0 0 25px;
 }
 
@@ -97,7 +97,7 @@ a {
 
 /* Resposividade */
 
-@media (max-width: 1296px) {
+@media (max-width: 1532px) {
     .img-works {
         display: none;
     }
@@ -109,11 +109,12 @@ a {
 
 @media (max-width: 580px) {
     .page-home {
-        height: 80vh;
+        width: 100vw;
+        height: 70vh;
     }
 
-    .page-home img {
-        margin: 25px 60px;
+    .page-home header img {
+        margin: 15px 60px;
     }
 
     .my-bio {
@@ -121,6 +122,8 @@ a {
         height: 300px;
         
         padding: 10px;
+
+        margin: 4px auto;
     }  
     
     .my-bio h3, p {
