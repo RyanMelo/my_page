@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-home {
+    background-color: #1b1b1b;
+    width: 100vw;
+    height: 80vh;
+
+    border-radius: 0 0 40px 40px;
+}
+
+.page-home img {
+    margin: 25px 0 0 25px;
+}
+
+.my-bio {
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+
+    margin: 65px 0 0 400px;
+
+    text-align: center;
+
+    border: white solid 4px;
+}
+
+.my-bio h3, p {
+    margin: 40px auto 55px;
+
+    color: white;
+}
+
+.my-bio h3 {
+    font-size: 30px;
+}
+
+.my-bio p {
+    font-size: 20px;
+}
+
+.more-works {
+    background-color: #075EF4;
+
+    width: 316px;
+    height: 48px;
+    padding: 15px 60px;
+
+    text-decoration: none;
+    color: white;
+
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+
+.more-works:hover {
+    background-color: #0750cf;
+    box-shadow: 1px 1px 15px  #005eff;
+}
+
+.img-works {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+}
+
+.redes {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    
+
+    justify-content: space-between;
+
+    margin: 70px auto;
+}
+
+.redes span {
+    margin-left: 4px;
+    
+    font-size: 25px;
+    font-weight: 700px;
+    color: #075EF4;
+}
+
+/* Resposividade */
+
+@media (max-width: 1296px) {
+    .img-works {
+        display: none;
+    }
+
+    .my-bio {
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .page-home {
+        height: 80vh;
+    }
+
+    .page-home img {
+        margin: 25px 60px;
+    }
+
+    .my-bio {
+        width: 300px;
+        height: 300px;
+        
+        padding: 10px;
+    }  
+    
+    .my-bio h3, p {
+        margin: 20px auto;
+    
+        color: white;
+    }
+    
+    .my-bio h3 {
+        font-size: 25px;
+    }
+    
+    .my-bio p {
+        font-size: 18px;
+        
+        margin-bottom: 35px;
+    }
+
+    .redes {
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes div {
+        margin-bottom: 10px;
+    }
+
+}
