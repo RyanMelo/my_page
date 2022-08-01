@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,68 +9,33 @@ a {
     text-decoration: none;
 }
 
-.page-home {
+.my-bio {
     background-color: #1b1b1b;
-    width: 100vw;
-    height: 80vh;
+    height: 45vh;
 
     border-radius: 0 0 40px 40px;
 }
 
-.page-home header img {
-    margin: 25px 0 0 25px;
+.my-bio .col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10vh;
 }
 
-.my-bio {
-    width: 600px;
-    height: 400px;
-    padding: 30px;
-
-    margin: 65px 0 0 400px;
-
-    text-align: center;
-
-    border: white solid 4px;
+.my-bio .col .bio {
+    width: 40vh;
 }
 
-.my-bio h3, p {
-    margin: 40px auto 55px;
-
-    color: white;
+.my-bio .col .bio h2 {
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: 35px;
 }
 
-.my-bio h3 {
-    font-size: 30px;
-}
-
-.my-bio p {
-    font-size: 20px;
-}
-
-.more-works {
-    background-color: #075EF4;
-
-    width: 316px;
-    height: 48px;
-    padding: 15px 60px;
-
-    text-decoration: none;
-    color: white;
-
-    border-radius: 10px;
-
-    transition: 0.5s;
-}
-
-.more-works:hover {
-    background-color: #0750cf;
-    box-shadow: 1px 1px 15px  #005eff;
-}
-
-.img-works {
-    position: absolute;
-    top: -25px;
-    right: 0px;
+.my-bio .col .bio p {
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .redes {
@@ -84,7 +47,11 @@ a {
 
     justify-content: space-between;
 
-    margin: 70px auto;
+    margin: 250px auto;
+}
+
+.redes i {
+    font-size: 25px;
 }
 
 .redes span {
@@ -92,7 +59,7 @@ a {
     
     font-size: 25px;
     font-weight: 700px;
-    color: #075EF4;
+    color: #075EF4
 }
 
 /* Resposividade */
@@ -108,42 +75,13 @@ a {
 }
 
 @media (max-width: 580px) {
-    .page-home {
-        width: 100vw;
-        height: 70vh;
-    }
 
-    .page-home header img {
-        margin: 15px 60px;
-    }
-
-    .my-bio {
-        width: 300px;
-        height: 300px;
-        
-        padding: 10px;
-
-        margin: 4px auto;
-    }  
-    
-    .my-bio h3, p {
-        margin: 20px auto;
-    
-        color: white;
-    }
-    
-    .my-bio h3 {
-        font-size: 25px;
-    }
-    
-    .my-bio p {
-        font-size: 18px;
-        
-        margin-bottom: 35px;
+    .my-bio .col img {
+        margin-top: -150px;
     }
 
     .redes {
-        margin-top: 40px;
+        margin-top: 450px;
 
         display: flex;
         flex-direction: column;
