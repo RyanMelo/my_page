@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
+    background-color: #1b1b1b;
 }
 
 a {
@@ -47,11 +49,12 @@ a {
 
     justify-content: space-between;
 
-    margin: 250px auto;
+    margin: 20vh auto;
 }
 
 .redes i {
     font-size: 25px;
+    color: #ffffff;
 }
 
 .redes span {
@@ -59,29 +62,18 @@ a {
     
     font-size: 25px;
     font-weight: 700px;
-    color: #075EF4
+    color: #ffffff
 }
 
 /* Resposividade */
-
-@media (max-width: 1532px) {
-    .img-works {
-        display: none;
-    }
-
-    .my-bio {
-        margin: 40px auto;
-    }
-}
-
 @media (max-width: 580px) {
 
     .my-bio .col img {
-        margin-top: -150px;
+        margin-top: -100px;
     }
 
     .redes {
-        margin-top: 450px;
+        margin-top: 550px;
 
         display: flex;
         flex-direction: column;
